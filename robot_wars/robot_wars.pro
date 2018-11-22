@@ -25,10 +25,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+    Game.cpp \
+    MapRect.cpp \
+    Map.cpp
 
 HEADERS += \
-        mainwindow.h
+    Game.h \
+    MapRect.h \
+    Map.h
 
-FORMS += \
-        mainwindow.ui
+FORMS +=
+
+DISTFILES +=
+
+RESOURCES += \
+    res/res.qrc
